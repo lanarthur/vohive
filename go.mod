@@ -30,17 +30,8 @@ require (
 	gorm.io/gorm v1.30.5
 )
 
-require golang.org/x/exp v0.0.0-20250711185948-6ae5c78190dc // indirect
-
-require (
-	github.com/google/btree v1.1.2 // indirect
-	golang.org/x/time v0.15.0 // indirect
-	gvisor.dev/gvisor v0.0.0-20260527191743-a81fd9dd382e // indirect
-)
-
 require (
 	aead.dev/minisign v0.2.0 // indirect
-	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/bytedance/sonic v1.14.0 // indirect
 	github.com/bytedance/sonic/loader v0.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
@@ -66,11 +57,11 @@ require (
 	github.com/google/pprof v0.0.0-20231101202521-4ca4178f5c7a // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
-	github.com/icholy/digest v1.1.0 // indirect
+	github.com/iniwex5/swu-go v0.0.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/jonboulle/clockwork v0.5.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/lestrrat-go/strftime v1.2.0 // indirect
@@ -82,7 +73,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/quic-go/quic-go v0.54.0 // indirect
-	github.com/refraction-networking/utls v1.8.2 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/sagikazarmark/locafero v0.11.0 // indirect
@@ -95,7 +85,6 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.3.0 // indirect
-	github.com/vishvananda/netlink v1.3.1 // indirect
 	github.com/vishvananda/netns v0.0.5 // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
@@ -104,9 +93,18 @@ require (
 	golang.org/x/text v0.36.0 // indirect
 	golang.org/x/tools v0.43.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
-	gotest.tools/v3 v3.5.2 // indirect
 	modernc.org/libc v1.22.5 // indirect
 	modernc.org/mathutil v1.5.0 // indirect
 	modernc.org/memory v1.5.0 // indirect
 	modernc.org/sqlite v1.23.1 // indirect
 )
+
+replace github.com/iniwex5/netlink => github.com/lanarthur/vohive-collection/netlink v0.0.0-20260807013740-be0da0050174
+
+replace github.com/iniwex5/qqbot => github.com/lanarthur/vohive-collection/qqbot v0.0.0-20260705051731-0c3052c52486
+
+replace github.com/iniwex5/quectel-qmi-go => github.com/lanarthur/vohive-collection/quectel-qmi-go v0.0.0-20260705051731-0c3052c52486
+
+replace github.com/iniwex5/vowifi-go => github.com/lanarthur/vohive-collection/vowifi-go v0.0.0-20260705051731-0c3052c52486
+
+replace github.com/iniwex5/swu-go => github.com/lanarthur/vohive-collection/swu-go v0.0.0-20260807021306-bfb71c032fc6
